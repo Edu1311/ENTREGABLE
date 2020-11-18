@@ -1,0 +1,185 @@
+/*Globales*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset rems **/
+    background-color: black;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Futura;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1 {
+    font-size: 3.8rem;
+    font-weight: lighter
+}
+
+h2 {
+    font-size: 3.4rem;
+    font-weight: lighter
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: lighter
+}
+h4 {
+    font-size: 2.6rem;
+    font-weight: lighter
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Header*/
+
+.site-header {
+    background-image: url("../img/FONDO.png ");
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    height: 50rem;
+}
+
+.barra {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.barra img {
+    max-width: 35%;
+    min-width: 15%;
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegacion a{
+    font-family: Futura ;
+    font-style: initial;
+    font-size: 85%;
+    margin-right: 1.6rem;
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+/* Main */
+
+.contenedor {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.contenedor h2{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family: Futura;
+    font-weight: lighter;
+    image-resolution: inherit;
+}
+
+.equipo {
+    display: flex;
+}
+
+.persona {
+    background-color: #000000;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    max-width: 50%;
+
+}
+.quote-container {
+    background-color: black;
+}
+#generate-btn {
+    color: white !important;
+    background: #64b6ac !important;
+    border-color: #64b6ac !important;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+#generate-btn:hover {
+    background: #b09e99 !important;
+    border-color: #b09e99 !important;
+    color: #333333 !important;
+    font-family: Futura;
+}
+.author {
+    color: #64b6ac;
+    font-size: 2rem;
+}
+
+
+.persona h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.persona li {
+    color: white;
+    font-weight: bold;
+}
+
+.persona li a {
+    text-decoration: #ffffff;
+    color: white;
+}
+.persona h4 {
+    color: aqua;
+}
+
+.signup-section {
+    background-image: url("../img/BACK.png ");
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    height: 110rem;
+}
+.persona1 {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    max-width: 50%;
+    text-align: center;
+}
+.container1 {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.equipo1 {
+    display: inline-flex;
+    max-width: 100%;
+}
+.signup-section {
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
+
+.uai {
+    max-width: 40rem;
+}
